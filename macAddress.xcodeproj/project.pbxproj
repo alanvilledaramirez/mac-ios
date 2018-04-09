@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9CEC2C52077BB0F003FE9D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CEC2C42077BB0F003FE9D5 /* AppDelegate.m */; };
+		F9CEC2C82077BB0F003FE9D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CEC2C72077BB0F003FE9D5 /* ViewController.m */; };
+		F9CEC2CB2077BB0F003FE9D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9CEC2C92077BB0F003FE9D5 /* Main.storyboard */; };
+		F9CEC2CD2077BB0F003FE9D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9CEC2CC2077BB0F003FE9D5 /* Assets.xcassets */; };
+		F9CEC2D02077BB0F003FE9D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9CEC2CE2077BB0F003FE9D5 /* LaunchScreen.storyboard */; };
+		F9CEC2D32077BB0F003FE9D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CEC2D22077BB0F003FE9D5 /* main.m */; };
+		F9CEC2DD2077BB0F003FE9D5 /* macAddressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CEC2DC2077BB0F003FE9D5 /* macAddressTests.m */; };
+		F9CEC2E82077BB0F003FE9D5 /* macAddressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9CEC2E72077BB0F003FE9D5 /* macAddressUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9CEC2D92077BB0F003FE9D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9CEC2B82077BB0F003FE9D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9CEC2BF2077BB0F003FE9D5;
+			remoteInfo = macAddress;
+		};
+		F9CEC2E42077BB0F003FE9D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9CEC2B82077BB0F003FE9D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9CEC2BF2077BB0F003FE9D5;
+			remoteInfo = macAddress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F9CEC2C02077BB0F003FE9D5 /* macAddress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macAddress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9CEC2C32077BB0F003FE9D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9CEC2C42077BB0F003FE9D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9CEC2C62077BB0F003FE9D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9CEC2C72077BB0F003FE9D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9CEC2CA2077BB0F003FE9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9CEC2CC2077BB0F003FE9D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9CEC2CF2077BB0F003FE9D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9CEC2D12077BB0F003FE9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9CEC2D22077BB0F003FE9D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9CEC2D82077BB0F003FE9D5 /* macAddressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macAddressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9CEC2DC2077BB0F003FE9D5 /* macAddressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macAddressTests.m; sourceTree = "<group>"; };
+		F9CEC2DE2077BB0F003FE9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9CEC2E32077BB0F003FE9D5 /* macAddressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macAddressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9CEC2E72077BB0F003FE9D5 /* macAddressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macAddressUITests.m; sourceTree = "<group>"; };
+		F9CEC2E92077BB0F003FE9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9CEC2BD2077BB0F003FE9D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CEC2D52077BB0F003FE9D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CEC2E02077BB0F003FE9D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9CEC2B72077BB0F003FE9D5 = {
+			isa = PBXGroup;
+			children = (
+				F9CEC2C22077BB0F003FE9D5 /* macAddress */,
+				F9CEC2DB2077BB0F003FE9D5 /* macAddressTests */,
+				F9CEC2E62077BB0F003FE9D5 /* macAddressUITests */,
+				F9CEC2C12077BB0F003FE9D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9CEC2C12077BB0F003FE9D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9CEC2C02077BB0F003FE9D5 /* macAddress.app */,
+				F9CEC2D82077BB0F003FE9D5 /* macAddressTests.xctest */,
+				F9CEC2E32077BB0F003FE9D5 /* macAddressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9CEC2C22077BB0F003FE9D5 /* macAddress */ = {
+			isa = PBXGroup;
+			children = (
+				F9CEC2C32077BB0F003FE9D5 /* AppDelegate.h */,
+				F9CEC2C42077BB0F003FE9D5 /* AppDelegate.m */,
+				F9CEC2C62077BB0F003FE9D5 /* ViewController.h */,
+				F9CEC2C72077BB0F003FE9D5 /* ViewController.m */,
+				F9CEC2C92077BB0F003FE9D5 /* Main.storyboard */,
+				F9CEC2CC2077BB0F003FE9D5 /* Assets.xcassets */,
+				F9CEC2CE2077BB0F003FE9D5 /* LaunchScreen.storyboard */,
+				F9CEC2D12077BB0F003FE9D5 /* Info.plist */,
+				F9CEC2D22077BB0F003FE9D5 /* main.m */,
+			);
+			path = macAddress;
+			sourceTree = "<group>";
+		};
+		F9CEC2DB2077BB0F003FE9D5 /* macAddressTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9CEC2DC2077BB0F003FE9D5 /* macAddressTests.m */,
+				F9CEC2DE2077BB0F003FE9D5 /* Info.plist */,
+			);
+			path = macAddressTests;
+			sourceTree = "<group>";
+		};
+		F9CEC2E62077BB0F003FE9D5 /* macAddressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F9CEC2E72077BB0F003FE9D5 /* macAddressUITests.m */,
+				F9CEC2E92077BB0F003FE9D5 /* Info.plist */,
+			);
+			path = macAddressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9CEC2BF2077BB0F003FE9D5 /* macAddress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9CEC2EC2077BB0F003FE9D5 /* Build configuration list for PBXNativeTarget "macAddress" */;
+			buildPhases = (
+				F9CEC2BC2077BB0F003FE9D5 /* Sources */,
+				F9CEC2BD2077BB0F003FE9D5 /* Frameworks */,
+				F9CEC2BE2077BB0F003FE9D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macAddress;
+			productName = macAddress;
+			productReference = F9CEC2C02077BB0F003FE9D5 /* macAddress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F9CEC2D72077BB0F003FE9D5 /* macAddressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9CEC2EF2077BB0F003FE9D5 /* Build configuration list for PBXNativeTarget "macAddressTests" */;
+			buildPhases = (
+				F9CEC2D42077BB0F003FE9D5 /* Sources */,
+				F9CEC2D52077BB0F003FE9D5 /* Frameworks */,
+				F9CEC2D62077BB0F003FE9D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9CEC2DA2077BB0F003FE9D5 /* PBXTargetDependency */,
+			);
+			name = macAddressTests;
+			productName = macAddressTests;
+			productReference = F9CEC2D82077BB0F003FE9D5 /* macAddressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9CEC2E22077BB0F003FE9D5 /* macAddressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9CEC2F22077BB0F003FE9D5 /* Build configuration list for PBXNativeTarget "macAddressUITests" */;
+			buildPhases = (
+				F9CEC2DF2077BB0F003FE9D5 /* Sources */,
+				F9CEC2E02077BB0F003FE9D5 /* Frameworks */,
+				F9CEC2E12077BB0F003FE9D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9CEC2E52077BB0F003FE9D5 /* PBXTargetDependency */,
+			);
+			name = macAddressUITests;
+			productName = macAddressUITests;
+			productReference = F9CEC2E32077BB0F003FE9D5 /* macAddressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9CEC2B82077BB0F003FE9D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Izzi.testMac;
+				TargetAttributes = {
+					F9CEC2BF2077BB0F003FE9D5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F9CEC2D72077BB0F003FE9D5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9CEC2BF2077BB0F003FE9D5;
+					};
+					F9CEC2E22077BB0F003FE9D5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F9CEC2BF2077BB0F003FE9D5;
+					};
+				};
+			};
+			buildConfigurationList = F9CEC2BB2077BB0F003FE9D5 /* Build configuration list for PBXProject "macAddress" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9CEC2B72077BB0F003FE9D5;
+			productRefGroup = F9CEC2C12077BB0F003FE9D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9CEC2BF2077BB0F003FE9D5 /* macAddress */,
+				F9CEC2D72077BB0F003FE9D5 /* macAddressTests */,
+				F9CEC2E22077BB0F003FE9D5 /* macAddressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9CEC2BE2077BB0F003FE9D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CEC2D02077BB0F003FE9D5 /* LaunchScreen.storyboard in Resources */,
+				F9CEC2CD2077BB0F003FE9D5 /* Assets.xcassets in Resources */,
+				F9CEC2CB2077BB0F003FE9D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CEC2D62077BB0F003FE9D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CEC2E12077BB0F003FE9D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9CEC2BC2077BB0F003FE9D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CEC2C82077BB0F003FE9D5 /* ViewController.m in Sources */,
+				F9CEC2D32077BB0F003FE9D5 /* main.m in Sources */,
+				F9CEC2C52077BB0F003FE9D5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CEC2D42077BB0F003FE9D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CEC2DD2077BB0F003FE9D5 /* macAddressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9CEC2DF2077BB0F003FE9D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CEC2E82077BB0F003FE9D5 /* macAddressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9CEC2DA2077BB0F003FE9D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9CEC2BF2077BB0F003FE9D5 /* macAddress */;
+			targetProxy = F9CEC2D92077BB0F003FE9D5 /* PBXContainerItemProxy */;
+		};
+		F9CEC2E52077BB0F003FE9D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9CEC2BF2077BB0F003FE9D5 /* macAddress */;
+			targetProxy = F9CEC2E42077BB0F003FE9D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F9CEC2C92077BB0F003FE9D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9CEC2CA2077BB0F003FE9D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9CEC2CE2077BB0F003FE9D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9CEC2CF2077BB0F003FE9D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9CEC2EA2077BB0F003FE9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9CEC2EB2077BB0F003FE9D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9CEC2ED2077BB0F003FE9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47ELN8ARR9;
+				INFOPLIST_FILE = macAddress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Izzi.macAddress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F9CEC2EE2077BB0F003FE9D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47ELN8ARR9;
+				INFOPLIST_FILE = macAddress/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Izzi.macAddress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F9CEC2F02077BB0F003FE9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47ELN8ARR9;
+				INFOPLIST_FILE = macAddressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Izzi.macAddressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macAddress.app/macAddress";
+			};
+			name = Debug;
+		};
+		F9CEC2F12077BB0F003FE9D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47ELN8ARR9;
+				INFOPLIST_FILE = macAddressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Izzi.macAddressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macAddress.app/macAddress";
+			};
+			name = Release;
+		};
+		F9CEC2F32077BB0F003FE9D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47ELN8ARR9;
+				INFOPLIST_FILE = macAddressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Izzi.macAddressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = macAddress;
+			};
+			name = Debug;
+		};
+		F9CEC2F42077BB0F003FE9D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 47ELN8ARR9;
+				INFOPLIST_FILE = macAddressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Izzi.macAddressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = macAddress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9CEC2BB2077BB0F003FE9D5 /* Build configuration list for PBXProject "macAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9CEC2EA2077BB0F003FE9D5 /* Debug */,
+				F9CEC2EB2077BB0F003FE9D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9CEC2EC2077BB0F003FE9D5 /* Build configuration list for PBXNativeTarget "macAddress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9CEC2ED2077BB0F003FE9D5 /* Debug */,
+				F9CEC2EE2077BB0F003FE9D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9CEC2EF2077BB0F003FE9D5 /* Build configuration list for PBXNativeTarget "macAddressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9CEC2F02077BB0F003FE9D5 /* Debug */,
+				F9CEC2F12077BB0F003FE9D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9CEC2F22077BB0F003FE9D5 /* Build configuration list for PBXNativeTarget "macAddressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9CEC2F32077BB0F003FE9D5 /* Debug */,
+				F9CEC2F42077BB0F003FE9D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9CEC2B82077BB0F003FE9D5 /* Project object */;
+}
